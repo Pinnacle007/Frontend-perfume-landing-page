@@ -105,8 +105,8 @@ body{
     .container{
        display: flex;
         flex-wrap: wrap;
-        width: 100%;
-       margin: 3rem;
+        width:60%;
+       margin: auto;
        height: 100%;
         
     }
@@ -125,6 +125,11 @@ body{
     }
     .gab{
         font-size: 30px;
+    }
+
+    body{
+        margin: 1rem 0;
+        margin-bottom: 5rem;
     }
      
 }
