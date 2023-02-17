@@ -34,6 +34,8 @@ body{
     background: hsl(0, 0%, 100%);
     width: 20rem;
     padding: 1rem;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
 }
 
 .perfume{
@@ -69,6 +71,7 @@ body{
 .price-two{
     color:hsl(228, 12%, 48%) ;
     padding: 0.6rem 0 ;
+    text-decoration: line-through;
 }
 
 .btn{
@@ -103,14 +106,25 @@ body{
        display: flex;
         flex-wrap: wrap;
         width: 100%;
+       margin: 3rem;
+       height: 100%;
         
     }
     .product-img{
         height: 50vh;
      width: 100%;
+     background-size: cover;
+     border-top-right-radius: 0.5rem;
+     border-bottom-left-radius: none;
      }
     .main-content{
         width: 100%;
+        height: auto;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+    .gab{
+        font-size: 30px;
     }
      
 }
