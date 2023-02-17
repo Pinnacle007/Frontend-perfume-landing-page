@@ -106,7 +106,7 @@ body{
     }
     .product-img{
         height: 50vh;
-        width: 64vw;
+        width: 100%;
     }
     
 }
