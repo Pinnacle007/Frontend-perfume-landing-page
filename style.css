@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(30, 38%, 92%);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.container{
+    display: flex;
+    
+}
+
+.product-img{
+    background-image: url(/images/image-product-desktop.jpg);
+    width: 20rem;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+
+}
+
+.main-content{
+    background: hsl(0, 0%, 100%);
+    width: 20rem;
+    padding: 1rem;
+}
+
+.perfume{
+    letter-spacing: 0.3rem;
+    color: hsl(228, 12%, 48%);
+    font-family: Fraunces;
+    font-size: .6rem;
+}
+
+.gab{
+    padding: 0.8rem 0;
+    font-family: fraunces;
+    /* font-size: 2rem; */
+    
+}
+
+.florex{
+    color: hsl(228, 12%, 48%);
+    font-size: 1rem;
+}
+
+.price-tag{
+    padding: 1rem 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.price-one{
+    color:hsl(158, 36%, 37%) ;
+    font-size: 2rem;
+}
+
+.price-two{
+    color:hsl(228, 12%, 48%) ;
+    padding: 0.6rem 0 ;
+}
+
+.btn{
+    border: none;
+    background: none;
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+}
+
+.cart{
+    display: flex;
+    background:hsl(158, 36%, 37%) ;
+    color: hsl(0, 0%, 100%);
+    padding: 1rem ;
+    border-radius: 0.6rem;
+    
+}
+
+.shop{
+    
+    color: hsl(0, 0%, 100%);
+    margin-right: 0.8rem;
+    
+}
+
+.cart:active{
+    background: hsl(157, 89%, 15%);
+}
+
+ @media only screen and (max-width: 600px) {
+    .container{
+       display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .product-img{
+        height: 50vh;
+        width: 64vw;
+    }
+    
+}
