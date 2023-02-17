@@ -21,7 +21,7 @@ body{
 }
 
 .product-img{
-    background-image: url(/images/image-product-desktop.jpg);
+    background-image: url(images/image-product-desktop.jpg);
     width: 20rem;
     background-size: cover;
     background-position: center;
