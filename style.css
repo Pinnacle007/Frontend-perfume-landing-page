@@ -108,5 +108,8 @@ body{
         height: 50vh;
         width: 100%;
     }
+    .main-content{
+        width: 100%;
+    }
     
 }
